@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/row_ny_times_cv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginStart="@dimen/sun_15"
+    android:layout_marginEnd="@dimen/sun_15"
+    android:layout_marginTop="@dimen/sun_25"
+    android:layout_marginBottom="@dimen/sun_25"
+    android:baselineAligned="false"
+    android:padding="@dimen/sun_20"
+    android:weightSum="3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.2"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/img_pic"
+            android:layout_width="@dimen/sun_150"
+            android:layout_height="@dimen/sun_150"
+            android:contentDescription="@string/icon"
+            android:src="@mipmap/ic_launcher" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.48"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/sun_20"
+            android:maxLines="2"
+            android:text=""
+            android:textColor="@color/clr_hading"
+            android:textSize="@dimen/sun_55" />
+
+        <TextView
+            android:id="@+id/txt_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/clr_subtitle"
+            android:textSize="@dimen/sun_55" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/sun_4"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/txt_copyright"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="CopyRight@"
+                android:lines="1"
+                android:gravity="center_vertical"
+                android:textAllCaps="true"
+                android:textColor="@color/clr_subtitle"
+                android:textSize="@dimen/sun_55" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="end"
+
+                >
+            <TextView
+                android:id="@+id/txt_date"
+                android:drawablePadding="@dimen/sun_15"
+                android:drawableStart="@drawable/ic_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:lines="1"
+                android:textColor="@color/clr_subtitle"
+                android:textSize="@dimen/sun_55" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.32"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/arrow"
+            android:src="@drawable/ic_arrow_right" />
+    </LinearLayout>
+
+
+</LinearLayout>
+

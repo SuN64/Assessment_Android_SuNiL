@@ -1,0 +1,20 @@
+<resources>
+
+    <dimen name="sun_1">1px</dimen>
+    <dimen name="sun_2">2px</dimen>
+    <dimen name="sun_3">3px</dimen>
+    <dimen name="sun_4">4px</dimen>
+    <dimen name="sun_5">5px</dimen>
+    <dimen name="sun_6">6px</dimen>
+    <dimen name="sun_7">7px</dimen>
+    <dimen name="sun_8">8px</dimen>
+    <dimen name="sun_9">9px</dimen>
+    <dimen name="sun_10">10px</dimen>
+    <dimen name="sun_15">15px</dimen>
+    <dimen name="sun_20">20px</dimen>
+    <dimen name="sun_25">25px</dimen>
+    <dimen name="sun_30">30px</dimen>
+    <dimen name="sun_55">55px</dimen>
+    <dimen name="sun_150">150px</dimen>
+
+</resources>

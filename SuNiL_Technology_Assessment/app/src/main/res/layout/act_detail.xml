@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screens.Act_Detail">
+
+    <WebView
+        android:id="@+id/web_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </WebView>
+
+    <tliknowledge.sunil_technology_assessment.custom.RotateLoading
+        android:id="@+id/rotateloading"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/rect_loading_bg"
+        android:paddingBottom="@dimen/sun_55"
+        android:paddingLeft="@dimen/sun_25"
+        android:paddingRight="@dimen/sun_25"
+        android:paddingTop="@dimen/sun_55"
+        app:loading_color="@color/clr_loading_surface"
+        app:loading_speed="9"
+        app:loading_width="4dp" />
+</RelativeLayout>
